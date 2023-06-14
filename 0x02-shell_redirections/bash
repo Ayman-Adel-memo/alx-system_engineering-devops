@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "sds"
+read m
+echo "#!/bin/bash " > ${m}
+chmod +x ${m}
